@@ -4,6 +4,7 @@
   "type": "library",
   "license": "MIT",
   "version": "0.0.1",
+  "minimum-stability": "dev",
   "authors": [
       {
           "name": "Eugene Buchinsky",
@@ -13,7 +14,6 @@
   "autoload": {
     "classmap": ["src"]
   },
-  "minimum-stability": "dev",
   "require": {
       "jonston/tranzware-payment-gateway": "dev-master",
       "liqpay/liqpay": "dev-master"
