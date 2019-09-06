@@ -1,0 +1,24 @@
+{
+  "name": "jonston/payment",
+  "description": "RG adapter",
+  "type": "project",
+  "license": "MIT",
+  "authors": [
+      {
+          "name": "Eugene Buchinsky",
+          "email": "jonston85@gmail.com"
+      }
+  ],
+  "autoload": {
+    "classmap": ["src"]
+  },
+  "minimum-stability": "dev",
+  "require": {
+      "num8er/tranzware-payment-gateway": "dev-master",
+      "liqpay/liqpay": "dev-master",
+    "jawira/case-converter": "dev-master"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "5.7"
+  }
+}
