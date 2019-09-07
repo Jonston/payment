@@ -17,6 +17,7 @@
   "require": {
       "php": ">=5.4.0",
       "num8er/tranzware-payment-gateway": "dev-master",
-      "liqpay/liqpay": "dev-master"
+      "liqpay/liqpay": "dev-master",
+      "jawira/case-converter": "dev-master"
   }
 }
