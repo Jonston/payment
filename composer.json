@@ -16,7 +16,7 @@
   },
   "require": {
       "php": ">=5.4.0",
-      "jonston/tranzware-payment-gateway": "dev-master",
+      "num8er/tranzware-payment-gateway": "dev-master",
       "liqpay/liqpay": "dev-master"
   }
 }
