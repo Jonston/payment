@@ -7,6 +7,18 @@ use num8er\TranzWarePaymentGateway\TranzWarePaymentGatewayRequestFactory;
 
 class TWPG implements PaymentInterface{
 
+    const ORDER_STATUS_CREATED = 'CREATED';
+    const ORDER_STATUS_ON_PAYMENT = 'ON-PAYMENT';
+    const ORDER_STATUS_ON_LOCK = 'ON-LOCK';
+    const ORDER_STATUS_APPROVED = 'APPROVED';
+    const ORDER_STATUS_CANCELED = 'CANCELED';
+    const ORDER_STATUS_DECLINED = 'DECLINED';
+    const ORDER_STATUS_ON_REFUND = 'ON-REFUND';
+    const ORDER_STATUS_REFUNDED = 'REFUNDED';
+    const ORDER_STATUS_PREAUTH_APPROVED = 'PREAUTH-APPROVED';
+    const ORDER_STATUS_EXPIRED = 'EXPIRED';
+    const ORDER_STATUS_ERROR = 'ERROR';
+
     private $requestFactory;
 
     public function __construct($url, $merchantId, $approveUrl, $declineUrl, $cancelUrl, $lang = 'EN')
