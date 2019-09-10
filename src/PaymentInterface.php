@@ -1,6 +1,6 @@
 <?php
 
-namespace Payment;
+namespace jonston\Payment;
 
 interface PaymentInterface{
     public function createOrder($params);

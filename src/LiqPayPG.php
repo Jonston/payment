@@ -1,6 +1,6 @@
 <?php
 
-namespace Payment;
+namespace jonston\Payment;
 
 class LiqPayPG implements PaymentInterface{
 

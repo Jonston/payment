@@ -1,6 +1,6 @@
 <?php
 
-namespace Payment;
+namespace jonston\Payment;
 
 use num8er\TranzWarePaymentGateway\CurrencyCodes;
 use num8er\TranzWarePaymentGateway\TranzWarePaymentGatewayRequestFactory;
