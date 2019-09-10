@@ -41,7 +41,7 @@ class TWPG implements PaymentInterface{
 
     public function getOrderStatus($params)
     {
-        $orderStatusRequest = $this->$this->requestFactory->createOrderStatusRequest(
+        $orderStatusRequest = $this->requestFactory->createOrderStatusRequest(
             $params['orderId'],
             $params['sessionId']
         );
