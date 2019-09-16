@@ -47,7 +47,7 @@ class TWPG implements PaymentInterface{
     const CURRENCY_GEL_STR = 'GEL';
     const CURRENCY_PLN_STR = 'PLN';
 
-    private $currencies = [
+    public static $currencies = [
         self::CURRENCY_JPY => self::CURRENCY_JPY_STR,
         self::CURRENCY_KZT => self::CURRENCY_KZT_STR,
         self::CURRENCY_LVL => self::CURRENCY_LVL_STR,
