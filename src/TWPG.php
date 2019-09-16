@@ -33,6 +33,36 @@ class TWPG implements PaymentInterface{
     const CURRENCY_GEL = 981;
     const CURRENCY_PLN = 985;
 
+    const CURRENCY_JPY_STR = 'JPY';
+    const CURRENCY_KZT_STR = 'KZT';
+    const CURRENCY_LVL_STR = 'LVL';
+    const CURRENCY_RUR_STR = 'RUR';
+    const CURRENCY_GBP_STR = 'GBP';
+    const CURRENCY_USD_STR = 'USD';
+    const CURRENCY_AZN_STR = 'AZN';
+    const CURRENCY_BYR_STR = 'BYR';
+    const CURRENCY_BGN_STR = 'BGN';
+    const CURRENCY_EUR_STR = 'EUR';
+    const CURRENCY_UAH_STR = 'UAH';
+    const CURRENCY_GEL_STR = 'GEL';
+    const CURRENCY_PLN_STR = 'PLN';
+
+    private $currencies = [
+        self::CURRENCY_JPY => self::CURRENCY_JPY_STR,
+        self::CURRENCY_KZT => self::CURRENCY_KZT_STR,
+        self::CURRENCY_LVL => self::CURRENCY_LVL_STR,
+        self::CURRENCY_RUR => self::CURRENCY_RUR_STR,
+        self::CURRENCY_GBP => self::CURRENCY_GBP_STR,
+        self::CURRENCY_USD => self::CURRENCY_USD_STR,
+        self::CURRENCY_AZN => self::CURRENCY_AZN_STR,
+        self::CURRENCY_BYR => self::CURRENCY_BYR_STR,
+        self::CURRENCY_BGN => self::CURRENCY_BGN_STR,
+        self::CURRENCY_EUR => self::CURRENCY_EUR_STR,
+        self::CURRENCY_UAH => self::CURRENCY_UAH_STR,
+        self::CURRENCY_GEL => self::CURRENCY_GEL_STR,
+        self::CURRENCY_PLN => self::CURRENCY_PLN_STR
+    ];
+
     private $requestFactory;
 
     public function __construct($url, $merchantId, $approveUrl, $declineUrl, $cancelUrl, $lang = 'EN')
