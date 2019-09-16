@@ -89,10 +89,7 @@ class TWPG implements PaymentInterface{
         );
         $orderRequestResult = $orderRequest->execute();
 
-        if($orderRequestResult->success())
-            return $orderRequestResult->getData();
-
-        return false;
+        return $orderRequestResult->getData();
     }
 
     public function getOrderStatus($params)
