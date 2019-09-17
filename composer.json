@@ -11,11 +11,17 @@
           "email": "jonston85@gmail.com"
       }
   ],
+  "repositories": [
+    {
+      "type": "vcs",
+      "url":  "https://github.com/Jonston/TranzWarePaymentGatewayApi.git"
+    }
+  ],
   "autoload": {
     "classmap": ["src"]
   },
   "require": {
-    "num8er/tranzware-payment-gateway": "dev-master",
+    "jonston/tranzware-payment-gateway": "dev-master",
     "liqpay/liqpay": "dev-master",
     "jawira/case-converter": "dev-master"
   }
