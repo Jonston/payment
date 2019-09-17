@@ -72,8 +72,8 @@ class TWPG implements PaymentInterface{
         );
     }
 
-    public function setCertificate($cert, $key, $pass){
-        $this->requestFactory->setCertificate($cert, $key, $pass);
+    public function setCertificate($ssKey, $sslKeyPass){
+        $this->requestFactory->setCertificate($ssKey, $sslKeyPass);
     }
 
     public function setDebugFile($file){
